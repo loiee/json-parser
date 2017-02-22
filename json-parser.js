@@ -2,9 +2,6 @@ function parseJson(json) {
     var i = 0
     return parse()
     function parse() {
-        if (json[i] === ' ') {
-
-        }
         if (!isNaN(json[i])) {
             return parseNumber()
         }
